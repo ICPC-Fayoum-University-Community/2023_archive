@@ -35,16 +35,6 @@ If you have anything to add, do not hesitate to offer! You can submit a PR or an
 
 Here are the topics we will upload this year to include in the curriculum.
 
-### Data Structures
-  - Stacks
-  - Queues
-  - Priority queue
-  - Hashmap
-  - Linked List
-  - Trees
-  - Heaps
-  - Advanced Trees 
-    - Tries
   - C++ STL 
 
 ### Algorithms
