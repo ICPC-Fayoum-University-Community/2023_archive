@@ -63,18 +63,9 @@ Here are the topics we will upload this year to include in the curriculum.
   - Graph Theory
     - Depth First Search (DFS)
     - Breadth First Search (BFS)
-    - Dijkstra’s Shortest Path
-    - Minimum Spanning Tree 
-    - Ford Bellman
-    - Floyd Warshall
-    - LCA (Lowest Common Ancestor)
-    - Max Flow / Min Cut
 
   - Dynamic Programming
     - Knapsack
-    - Matrix chain multiplication
-    - Coin Change
-    - Kadane
     - Longest increasing Subsequence (with RMQ)
 
   - Bit Manipulation
@@ -82,14 +73,7 @@ Here are the topics we will upload this year to include in the curriculum.
   - **Optional Advanced Algorithms**
     - AVL Trees
     - Graph Coloring
-    - Mo's Algorithm
-    - Palindromic Tree
-    - Heavy Light Decomposition
-    - Dynamic Programming by Profile
-    - Rod Cutting
     - Topological Sorting
-    - DP with Bitmask - Dynamic Programming
-    - Diobhantine Equation - Math
     - Flood Fill - Graph
 
 
