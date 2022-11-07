@@ -1,16 +1,16 @@
 #include <iostream>
-
-
 using namespace std;
 
-int main() {
-    int a ;
-    cin >> a  ;
+/*
+ * !5   => 0
+ * !-5  => 0
+ * !0   => 1
+ * any NOT of a non zero value is false -0- ..
+ */
 
-    if (a==1)
-        cout << 0 ; 
-    else
-        cout << 1 ;
-     
-    /// if(a) cout << 0 ;   else cout << 1 ;
+int main() {
+    int a;
+    cin >> a;
+
+    cout << !a;
 }
