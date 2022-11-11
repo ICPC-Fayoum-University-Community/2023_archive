@@ -21,7 +21,7 @@ using namespace std;
  * but we have now the sum of two series from 1 to one and we need the sum of one series only?
  * so we will divide the eq by two-->((n+1)*n)/2-->in this ex it will be 8*7/2=28
  *
- * my friend , you are able now to calc the sum from 1 to n by yourself without using code
+ * my friend , you are able now to calc the sum from 1 to n by yourself without using loops
  * let's code our problem now...
 */
 
