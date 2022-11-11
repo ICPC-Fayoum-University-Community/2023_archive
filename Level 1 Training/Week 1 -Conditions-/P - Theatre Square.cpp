@@ -32,11 +32,18 @@ int dy[4]{0, 1, 0, -1};
  *  when using doubles .. use FIXED to avoid scientific notations
  */
 
-int main() {
-    double n, m, a;
-    cin >> n >> m >> a;
+   
+    int main()
+    {
+        long long n , m , a ;
+        cin >> n >> m >> a  ;
 
-    cout << fixed << setprecision(0);
-    cout << ceil(n / a) * ceil(m / a);
-    return 0;
-}
+       long long len = n / a  , wed = m / a ;
+
+        if ((len * a) != n)
+            len++ ;
+        if((wed * a) != m)
+            wed++ ;
+        cout << len * wed ;
+
+    }
