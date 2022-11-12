@@ -3,7 +3,7 @@
 using namespace std;
 
 /*
- * we have a number n which represents the length of sequence that first write all odd numbers in ascending order
+ * we have a number n which represents the length of sequence then first write all odd numbers in ascending order
  *          then add even numbers in ascending order
  * so ..  seq. of length 5 would be --> 1 3 5 2 4
  *
@@ -25,27 +25,28 @@ using namespace std;
  *
  *  so one way to solve this Q is
  *
- *  first i will drcress k by one to work on this 0-based formula
+ *  first i will decrease k by one to work on this 0-based formula
  *  then check if n is even
- *      if k < n/2 than it will be in odd range and to get the aswer just ouput (2*k + 1)
- *      else it will in even range and to get the answer first we need to subtract the whole odd range (k - (n/2 - 1))
- *      than output 2*k
+ *      if k < n/2 than it will be in odd range and to get the answer just output (2*k + 1)
+ *      else it will be in even range and to get the answer we need to subtract the whole odd range (k - (n/2 - 1))
+ *      then output 2*k
  * else
- *      if k <= n/2 than it will be in odd range and to get the aswer just ouput (2*k + 1)
- *      else it will in even range and to get the answer first we need to subtract the whole odd range ( k - (n/2))
- *      than output 2*k
+ *      if k <= n/2 then it will be in odd range and to get the answer just ouput (2*k + 1)
+ *      else it will be in even range and to get the answer first we need to subtract the whole odd range ( k - (n/2))
+ *      then output 2*k
  *
  */
 
 int main(){
 
     long long n,k;
-    cin>>n>>k;
+    cin >> n >> k;
     k--;
-    if (n % 2 == 0){
+    
+    if (n % 2 == 0) {
         if (k < n/2)
             cout << 2*k + 1;
-        else{
+        else {
             k -= (n/2 - 1);
             cout << 2*k;
         }
