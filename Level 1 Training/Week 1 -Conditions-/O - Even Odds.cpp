@@ -1,4 +1,5 @@
 #include<iostream>
+#include<cmath>
 using namespace std;
 
 /* put all odd numbers less than or equal to n next to each other
@@ -60,36 +61,50 @@ using namespace std;
   to solve the problem without checking if n is even or odd we use ceil function or (n+1)/2
 
 
-  let m = ceil((double)n/2) or m = (n+1)/2
+  let middle = ceil((double)n/2) or middle = (n+1)/2
 
 
-  if k <= m  then we are in odd numbers part
+  if k <= middle  then we are in odd numbers part
   to get the number in that odd position we use the following formula:  2 * k - 1
 
 
   if k > m then we are in even numbers part
-  to get the number in that even position we use the following formula:  2 * (k - m)
+  to get the number in that even position we use the following formula:  2 * (k - middle)
 
 
 */
 
 
 int main() {
-
-	long long n, k; cin >> n >> k;
-
-	if (n % 2 != 0) {
-		if (k <= n / 2 + 1)
-			cout << k * 2 - 1;
-		else
-			cout << (k - (n / 2 + 1)) * 2;
+	
+	long long k, n;
+	cin>>n>>k;
+	
+	long long middle = ceil(n / 2.0);
+	
+	if(k <= middle) {
+ 	   cout<<(2 * k) - 1;
 	}
 	else {
-		if (k <= n / 2)
-			cout << k * 2 - 1;
-		else
-			cout << (k - n / 2) * 2;
-	}
+   	 cout<<(k - middle) * 2;
+}
+	
+// ----- the code in more details -------
+// 	long long n, k;
+// 	cin >> n >> k;
+
+// 	if (n % 2 != 0) {	
+// 		if (k <= n / 2 + 1)
+// 			cout << k * 2 - 1;
+// 		else
+// 			cout << (k - (n / 2 + 1)) * 2;
+// 	} 
+// 	else {
+// 		if (k <= n / 2)
+// 			cout << k * 2 - 1;
+// 		else
+// 			cout << (k - n / 2) * 2;
+// 		}
 
 	return 0;
 }
