@@ -78,16 +78,15 @@ using namespace std;
 int main() {
 	
 	long long k, n;
-	cin>>n>>k;
+	cin >> n >> k;
 	
 	long long middle = ceil(n / 2.0);
 	
-	if(k <= middle) {
+	if (k <= middle) 
  	   cout<<(2 * k) - 1;
-	}
-	else {
+	else 
    	 cout<<(k - middle) * 2;
-}
+	
 	
 // ----- the code in more details -------
 // 	long long n, k;
