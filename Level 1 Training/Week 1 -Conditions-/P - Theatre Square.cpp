@@ -1,6 +1,7 @@
 #include <iostream>
 #include <cmath>
 #include <bits/stdc++.h>
+
 using namespace std;
 
 #define ll          long long
@@ -38,5 +39,17 @@ int main() {
 
     cout << fixed << setprecision(0);
     cout << ceil(n / a) * ceil(m / a);
+
+    // ------ another approach -----------
+    long long len = n / a, wed = m / a;
+
+/*
+    if ((len * a) != n)
+        len++;
+    if ((wed * a) != m)
+        wed++;
+    cout << len * wed;
+*/
+
     return 0;
 }
