@@ -1,6 +1,4 @@
 #include <iostream>
-
-
 using namespace std;
 
 int main() {
@@ -9,15 +7,15 @@ int main() {
 
     int cnt = 0 ;
 
-    if (a!=b )
-        cnt++ ;
-    if (b!=c)
-        cnt ++ ;
-    if (a!=c)
-        cnt ++ ;
+    if (a != b)
+        cnt++;
+    if (b != c)
+        cnt++;
+    if (a != c)
+        cnt++;
 
     if (cnt == 0)
-    cout<< 1 ;
+        cout << 1;
     else
-        cout <<cnt;
+        cout << cnt;
 }
