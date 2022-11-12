@@ -41,15 +41,13 @@ int main() {
     cout << ceil(n / a) * ceil(m / a);
 
     // ------ another approach -----------
-    long long len = n / a, wed = m / a;
+/*    long long len = n / a, wed = m / a;
 
-/*
     if ((len * a) != n)
         len++;
     if ((wed * a) != m)
         wed++;
-    cout << len * wed;
-*/
+    cout << len * wed;*/
 
     return 0;
 }
