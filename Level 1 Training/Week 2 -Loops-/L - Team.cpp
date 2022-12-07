@@ -8,14 +8,16 @@ using namespace std;
  so if the summation is greater than or equal 2 then team will implement the problem.
 */
 
-int main()
-{
-	int n, a, b, c, x = 0; cin >> n;
+int main() {
+	int n, problems_to_be_solved = 0;
+	cin >> n;
+	
 	while (n--) {
+		int a, b, c;
 		cin >> a >> b >> c;
 		if (a + b + c >= 2)
-			x++;
+			problems_to_be_solved++;
 	}
-	cout << x;
+	cout << problems_to_be_solved;
     return 0;
 }
