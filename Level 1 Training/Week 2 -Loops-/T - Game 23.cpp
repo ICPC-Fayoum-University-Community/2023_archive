@@ -35,9 +35,9 @@ int main() {
     int cnt = 0;
     // the loop keeps working until we reach a point where n == m or n > m
     while (n < m) {
-        // if we can multiply n by 2 and m % m holds .. then it is a valid operation
+        // if we can multiply n by 2 and m % (n*2) holds .. then it is a valid operation
         if (m % (n * 2) == 0) n *= 2, ++cnt;
-            // else if we can multiply n by 3 and m % m holds .. then it is a valid operation
+            // else if we can multiply n by 3 and m % (n*3) holds .. then it is a valid operation
         else if (m % (n * 3) == 0) n *= 3, ++cnt;
             // if none of the above operations is valid then it is impossible to reach m from n
             // so break and see if n is equal m now or print -1
