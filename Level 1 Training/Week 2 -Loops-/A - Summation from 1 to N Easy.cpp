@@ -12,7 +12,7 @@ int main() {
     long long sum = 0;
     
     for (int i = 1; i <= n; ++i) {
-        csum += i;
+        sum += i;
     }
     
     cout << sum;
