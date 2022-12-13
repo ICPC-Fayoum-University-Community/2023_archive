@@ -1,0 +1,58 @@
+#include <iostream>
+using namespace std;
+
+#define ll          long long
+#define lp1(n)      for(ll i = 1; i <= (n); ++i)
+#define lp(n)       for(ll i = 0; i < (n); ++i)
+#define tc          ll testcase;   cin>>testcase;   while(testcase--)
+#define all(v)      (v).begin(), (v).end()
+#define allr(v)     (v).rbegin(), (v).rend()
+#define pb          push_back
+#define yes         cout<<"YES"<<endl
+#define no          cout<<"NO"<<endl
+#define endl        "\n"
+#define improve     ios_base::sync_with_stdio(false); cin.tie(NULL); cout.tie(NULL)
+int dx[4]{-1, 0, 1, 0};
+int dy[4]{0, 1, 0, -1};
+
+/* 3ein39
+                    " وَأَن لَّيْسَ لِلْإِنسَانِ إِلَّا مَا سَعَى ﴿39﴾ وَأَنَّ سَعْيَهُ سَوْفَ يُرَى ﴿40﴾ ثُمَّ يُجْزَاهُ الْجَزَاء الْأَوْفَى "
+                                      My way to My dream....
+*/
+
+/*
+ * 3 2 --> 200
+ * 4 5 --> 5000
+ * 4 7 --> 7000
+ *
+ * observe that .. we can find the answer easily by having t then n - 1 zeros to the right of it
+ *
+ * but take care of edge cases ..
+ *
+ * if n == 1 and t == 10 .. then no number with one digit divisible by 10
+ *
+ * if n != 1 and t == 10 observe that ..
+ * 4 10 --> 10 00
+ * we now need n - 2 zeros only not n - 1
+ */
+
+int main() {
+
+    int n, t;
+    cin >> n >> t;
+
+    if (n == 1 && t == 10)
+        cout << -1;
+    else {
+        cout << t;
+
+        for (int i = 0; i < n - 2; ++i) {
+            cout << 0;
+        }
+
+        if (t != 10 && n != 1)
+            cout << 0;
+    }
+
+    return 0;
+}
