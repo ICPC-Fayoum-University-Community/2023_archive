@@ -34,7 +34,7 @@ int dy[4]{0, 1, 0, -1};
  *
  *  observe that with having odd number of odds in each subsequence that summation in each one is odd
  *
- *  therefore .. if we found even number of values in our input .. the answer is yes
+ *  therefore .. if we found even number of odds in our input .. the answer is yes
  */
 
 int main() {
