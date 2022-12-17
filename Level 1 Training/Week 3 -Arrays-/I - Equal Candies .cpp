@@ -29,7 +29,7 @@ int dy[4]{0, 1, 0, -1};
  * the only operation you have is to eat(decrease) the amount of candies in each box
  * so .. observe that we need to make all elements of the array to be == the minimum element in it
  *
- * simply .. sort the array and loop on it summing the difference between the current box and the least one
+ * simply .. sort the array and loop on it summing the difference between the current box and the first one
  * which is located at index 0 after sorting
  *
  */
