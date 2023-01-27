@@ -32,8 +32,8 @@ int dy[4]{0, 1, 0, -1};
  * means if current element is divisible by the smallest element that we are currently testing
  * count it
  *
- * afterwards .. if that count is == n then all elements pf the array are divisible by arr[0]
- * otherwise it is impossible ti find such a number, and we print -1
+ * afterwards .. if that count is == n then all elements of the array are divisible by arr[0]
+ * otherwise it is impossible to find such a number, and we print -1
  */
 
 int main() {
