@@ -3,12 +3,6 @@
 #include <algorithm>
 using namespace std;
 
-void hussein() {
-    #ifndef ONLINE_JUDGE
-        freopen("in.txt","r",stdin); 
-        freopen("out.txt","w",stdout);  
-    #endif 
-}
 
 /*
 
@@ -17,8 +11,9 @@ void hussein() {
 
 */
 
+
+
 int main() {
-    hussein();  
 
     int n;
     cin >> n;
