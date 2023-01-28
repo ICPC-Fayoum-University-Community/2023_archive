@@ -53,7 +53,7 @@ int main() {
     }
 
     if (cnt == n)
-        cout << cnt;
+        cout << arr[0];
     else
         cout << -1;
 }
