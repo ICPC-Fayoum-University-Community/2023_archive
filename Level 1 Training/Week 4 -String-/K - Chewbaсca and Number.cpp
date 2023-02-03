@@ -44,9 +44,10 @@ int main() {
         int digit = s[i] - '0';
         int operation = 9 - digit;
 
+        // i == 0, to handle leading zero problem
         if (digit == 9 && i == 0)
             cout << 9;
-        else if (operation < digit)
+        else if (operation < digit)     // then you print the minimum 
             cout << operation;
         else
             cout << digit;
