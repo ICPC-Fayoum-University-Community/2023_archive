@@ -20,6 +20,10 @@ int dy[4]{0, 1, 0, -1};
                                       my way to my dream....
 */
 
+/*
+ * just count the numbers of 'A' and 'D's in the input string
+ */
+
 int main() {
 
     int n;
