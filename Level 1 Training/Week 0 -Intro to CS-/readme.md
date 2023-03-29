@@ -1,0 +1,12 @@
+# Fayoum ICPC - Level 1 Training - Week 0: Introduction to Computer Science
+
+Welcome to the repository for the Level 1 Training program for the Fayoum ICPC team! This week's materials cover an introduction to computer science, including basic programming concepts.
+
+## Upsolvings
+
+We have created a Google Drive folder containing all the upsolvings for the problems covered in this week's training. Please feel free to access this folder for additional practice and reference. The folder can be found at the following link:
+
+- [Google Drive folder with upsolvings](https://drive.google.com/drive/folders/1ip-HUXuj0pOC3rDHdhe5hZH7Gw6UE52S?usp=sharing)
+
+
+If you have any questions or concerns, please don't hesitate to contact us.
