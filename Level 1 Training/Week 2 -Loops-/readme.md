@@ -1,6 +1,6 @@
-# Fayoum ICPC - Level 1 Training - Week 1: Conditions
+# Fayoum ICPC - Level 1 Training - Week 2: Loops
 
-Welcome to the repository for the Level 1 Training program for the Fayoum ICPC team! This week's materials cover conditional statements in cpp.
+Welcome to the repository for the Level 1 Training program for the Fayoum ICPC team! This week's materials cover loops in cpp.
 
 ## Upsolvings
 
