@@ -2,7 +2,7 @@
 
 Welcome to the repository for the Level 1 Training program for the Fayoum ICPC team!
 
-## Mohamed Khaled's recorded meeting
+## recorded meeting
 
 - [Time complexity & practice](https://drive.google.com/drive/folders/1hIgMnWCFclrgG0A9CGJ1Ly1IEfzO-42j)
 
