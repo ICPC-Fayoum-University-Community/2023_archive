@@ -56,3 +56,33 @@ int main()
 
     return 0;
 }
+
+
+// Another Solution
+void solve() {
+    int n, k;
+    cin >> n >> k;
+    string s = "abcdefghijklmnopqrstuvwxyz";
+    string ans = "";
+    for (int i = 0; i < n; i++) {
+        ans += s[i % k];
+    }
+    cout << ans << endl;
+   
+}
+
+int main() {
+    speed
+#ifndef ONLINE_JUDGE
+    freopen("in.txt", "r", stdin);
+    freopen("out.txt", "w", stdout);
+#endif
+
+//    int t;cin>>t;
+//    while(t--)
+    solve();
+
+    return 0;
+}
+
+
